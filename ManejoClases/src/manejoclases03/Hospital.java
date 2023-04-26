@@ -22,7 +22,7 @@ public class Hospital {
     public void establecerPresupuesto(double n){
         presupuesto = n;
     }
-    
+    // metodo para obtener cada atributo
     public String obtenerNombre(){
         return nombre;
     }
@@ -33,6 +33,10 @@ public class Hospital {
     
     public double obtenerPresupuesto(){
         return presupuesto;
+    }
+
+    void nextLine() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
 }
